@@ -1,0 +1,19 @@
+# Ignore build directory
+/build/
+# Ignore temporary files
+*.o
+*.obj
+*.exe
+*.log
+*.tmp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
