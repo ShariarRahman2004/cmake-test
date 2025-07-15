@@ -8,4 +8,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(include)
 
-add_executable(test src/main.cpp src/utils.cpp)
+add_executable(test src/main.cpp src/utils.cpp src/helper.cpp)
